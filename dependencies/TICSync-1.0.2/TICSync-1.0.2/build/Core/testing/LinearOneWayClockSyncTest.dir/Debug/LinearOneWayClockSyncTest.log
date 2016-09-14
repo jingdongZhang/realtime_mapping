@@ -1,0 +1,48 @@
+﻿生成启动时间为 2014/12/8 11:26:43。
+     1>项目“E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\Core\testing\LinearOneWayClockSyncTest.vcxproj”在节点 5 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“LinearOneWayClockSyncTest.dir\Debug\LinearOneWayClockSyncTest.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Building Custom Rule E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/Core/testing/CMakeLists.txt
+         CMake does not need to re-run because E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\Core\testing\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         f:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/Core/include" /I"E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/build/Core/include" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"LinearOneWayClockSyncTest.dir\Debug\\" /Fd"E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/build/bin/Debug/LinearOneWayClockSyncTest.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\Core\testing\LinearOneWayClockSyncTest.cpp  /Zm1000 
+         LinearOneWayClockSyncTest.cpp
+     1>E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\Core\include\TICSync/TimingEnvelope.h(72): warning C4101: “e”: 未引用的局部变量
+                 E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\Core\include\TICSync/TimingEnvelope.h(66): 编译类 模板 成员函数“void TICSync::TimingEnvelope<T>::addPoint(const T &,const T &)”时
+                 with
+                 [
+                     T=double
+                 ]
+                 E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\Core\include\TICSync/LinearOneWayClockSync.h(234): 参见对正在编译的类 模板 实例化“TICSync::TimingEnvelope<T>”的引用
+                 with
+                 [
+                     T=double
+                 ]
+                 ..\..\..\Core\testing\LinearOneWayClockSyncTest.cpp(32): 参见对正在编译的类 模板 实例化“TICSync::LinearOneWayClockSync<T>”的引用
+                 with
+                 [
+                     T=double
+                 ]
+       ManifestResourceCompile:
+         F:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"LinearOneWayClockSyncTest.dir\Debug\LinearOneWayClockSyncTest.exe.embed.manifest.res" LinearOneWayClockSyncTest.dir\Debug\LinearOneWayClockSyncTest_manifest.rc 
+       MakeDirsForLink:
+         正在创建目录“E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\lib\Debug\”。
+       Link:
+         f:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\bin\Debug\LinearOneWayClockSyncTest.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"LinearOneWayClockSyncTest.dir\Debug\LinearOneWayClockSyncTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\bin\Debug\LinearOneWayClockSyncTest.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/build/lib/Debug/LinearOneWayClockSyncTest.lib" /MACHINE:X86 LinearOneWayClockSyncTest.dir\Debug\LinearOneWayClockSyncTest.exe.embed.manifest.res
+         LinearOneWayClockSyncTest.dir\Debug\LinearOneWayClockSyncTest.obj  /machine:X86 /debug 
+       Manifest:
+         F:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"LinearOneWayClockSyncTest.dir\Debug\LinearOneWayClockSyncTest.exe.embed.manifest" /manifest LinearOneWayClockSyncTest.dir\Debug\LinearOneWayClockSyncTest.exe.intermediate.manifest
+         F:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"LinearOneWayClockSyncTest.dir\Debug\LinearOneWayClockSyncTest.exe.embed.manifest.res" LinearOneWayClockSyncTest.dir\Debug\LinearOneWayClockSyncTest_manifest.rc 
+       LinkEmbedManifest:
+         f:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\bin\Debug\LinearOneWayClockSyncTest.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"LinearOneWayClockSyncTest.dir\Debug\LinearOneWayClockSyncTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\bin\Debug\LinearOneWayClockSyncTest.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/build/lib/Debug/LinearOneWayClockSyncTest.lib" /MACHINE:X86 LinearOneWayClockSyncTest.dir\Debug\LinearOneWayClockSyncTest.exe.embed.manifest.res
+         LinearOneWayClockSyncTest.dir\Debug\LinearOneWayClockSyncTest.obj  /machine:X86 /debug 
+         LinearOneWayClockSyncTest.vcxproj -> E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\bin\Debug\LinearOneWayClockSyncTest.exe
+       FinalizeBuildStatus:
+         正在删除文件“LinearOneWayClockSyncTest.dir\Debug\LinearOneWayClockSyncTest.unsuccessfulbuild”。
+         正在对“LinearOneWayClockSyncTest.dir\Debug\LinearOneWayClockSyncTest.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\Core\testing\LinearOneWayClockSyncTest.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.72

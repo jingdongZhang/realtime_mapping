@@ -1,0 +1,16 @@
+F:/Program Files/TICSync/lib/TICSync/TICSyncConfig.cmake
+F:/Program Files/TICSync/include/TICSync/ConvexEnvelope.h
+F:/Program Files/TICSync/include/TICSync/Core.h
+F:/Program Files/TICSync/include/TICSync/dataTypes.h
+F:/Program Files/TICSync/include/TICSync/exceptions.h
+F:/Program Files/TICSync/include/TICSync/geometry.h
+F:/Program Files/TICSync/include/TICSync/LinearOneWayClockSync.h
+F:/Program Files/TICSync/include/TICSync/LinearTwoWayClockSync.h
+F:/Program Files/TICSync/include/TICSync/MaxSepFilter.h
+F:/Program Files/TICSync/include/TICSync/SwitchingOneWayClockSync.h
+F:/Program Files/TICSync/include/TICSync/SwitchingTwoWayClockSync.h
+F:/Program Files/TICSync/include/TICSync/TimestampFilter.h
+F:/Program Files/TICSync/include/TICSync/TimestampMapper.h
+F:/Program Files/TICSync/include/TICSync/TimingEnvelope.h
+F:/Program Files/TICSync/include/TICSync/utils.h
+F:/Program Files/TICSync/include/TICSync/TICSyncConfig.h

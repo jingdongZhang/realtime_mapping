@@ -1,0 +1,42 @@
+﻿生成启动时间为 2014/12/8 11:28:02。
+     1>项目“E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\INSTALL.vcxproj”在节点 8 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Win32\Release\INSTALL\INSTALL.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Win32\Release\INSTALL\INSTALL.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Building Custom Rule E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/CMakeLists.txt
+         CMake does not need to re-run because E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\CMakeFiles\generate.stamp is up-to-date.
+       PostBuildEvent:
+         "F:\Program Files\CMake 2.8\bin\cmake.exe" -DBUILD_TYPE=Release -P cmake_install.cmake
+         if errorlevel 1 goto :VCEnd
+         :VCEnd
+         -- Install configuration: "Release"
+         -- Up-to-date: F:/Program Files/TICSync/lib/TICSync/TICSyncConfig.cmake
+         -- Installing: F:/Program Files/TICSync/include
+         -- Installing: F:/Program Files/TICSync/include/TICSync
+         -- Up-to-date: F:/Program Files/TICSync/include/TICSync/ConvexEnvelope.h
+         -- Up-to-date: F:/Program Files/TICSync/include/TICSync/Core.h
+         -- Up-to-date: F:/Program Files/TICSync/include/TICSync/dataTypes.h
+         -- Up-to-date: F:/Program Files/TICSync/include/TICSync/exceptions.h
+         -- Up-to-date: F:/Program Files/TICSync/include/TICSync/geometry.h
+         -- Up-to-date: F:/Program Files/TICSync/include/TICSync/LinearOneWayClockSync.h
+         -- Up-to-date: F:/Program Files/TICSync/include/TICSync/LinearTwoWayClockSync.h
+         -- Up-to-date: F:/Program Files/TICSync/include/TICSync/MaxSepFilter.h
+         -- Up-to-date: F:/Program Files/TICSync/include/TICSync/SwitchingOneWayClockSync.h
+         -- Up-to-date: F:/Program Files/TICSync/include/TICSync/SwitchingTwoWayClockSync.h
+         -- Up-to-date: F:/Program Files/TICSync/include/TICSync/TimestampFilter.h
+         -- Up-to-date: F:/Program Files/TICSync/include/TICSync/TimestampMapper.h
+         -- Up-to-date: F:/Program Files/TICSync/include/TICSync/TimingEnvelope.h
+         -- Up-to-date: F:/Program Files/TICSync/include/TICSync/utils.h
+         -- Installing: F:/Program Files/TICSync/include
+         -- Installing: F:/Program Files/TICSync/include/TICSync
+         -- Up-to-date: F:/Program Files/TICSync/include/TICSync/TICSyncConfig.h
+       FinalizeBuildStatus:
+         正在删除文件“Win32\Release\INSTALL\INSTALL.unsuccessfulbuild”。
+         正在对“Win32\Release\INSTALL\INSTALL.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\INSTALL.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.13

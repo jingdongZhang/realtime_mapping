@@ -1,0 +1,15 @@
+﻿生成启动时间为 2014/12/8 11:26:46。
+     1>项目“E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\ALL_BUILD.vcxproj”在节点 6 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Win32\Debug\ALL_BUILD\ALL_BUILD.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Building Custom Rule E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/CMakeLists.txt
+         CMake does not need to re-run because E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\CMakeFiles\generate.stamp is up-to-date.
+       FinalizeBuildStatus:
+         正在删除文件“Win32\Debug\ALL_BUILD\ALL_BUILD.unsuccessfulbuild”。
+         正在对“Win32\Debug\ALL_BUILD\ALL_BUILD.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\ALL_BUILD.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.13

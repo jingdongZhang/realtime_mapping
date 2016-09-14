@@ -1,0 +1,46 @@
+﻿生成启动时间为 2014/12/8 11:26:42。
+     1>项目“E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\Core\samples\TimestampCorrector\TimestampCorrector.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“TimestampCorrector.dir\Debug\TimestampCorrector.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Building Custom Rule E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/Core/samples/TimestampCorrector/CMakeLists.txt
+         CMake does not need to re-run because E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\Core\samples\TimestampCorrector\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         f:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/Core/include" /I"E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/build/Core/include" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"TimestampCorrector.dir\Debug\\" /Fd"E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/build/bin/Debug/TimestampCorrector.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\..\Core\samples\TimestampCorrector\TimestampCorrector.cpp  /Zm1000 
+         TimestampCorrector.cpp
+     1>E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\Core\include\TICSync/TimingEnvelope.h(72): warning C4101: “e”: 未引用的局部变量
+                 E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\Core\include\TICSync/TimingEnvelope.h(66): 编译类 模板 成员函数“void TICSync::TimingEnvelope<T>::addPoint(const T &,const T &)”时
+                 with
+                 [
+                     T=double
+                 ]
+                 E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\Core\include\TICSync/LinearOneWayClockSync.h(234): 参见对正在编译的类 模板 实例化“TICSync::TimingEnvelope<T>”的引用
+                 with
+                 [
+                     T=double
+                 ]
+                 ..\..\..\..\Core\samples\TimestampCorrector\TimestampCorrector.cpp(239): 参见对正在编译的类 模板 实例化“TICSync::LinearOneWayClockSync<T>”的引用
+                 with
+                 [
+                     T=double
+                 ]
+       ManifestResourceCompile:
+         F:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"TimestampCorrector.dir\Debug\TimestampCorrector.exe.embed.manifest.res" TimestampCorrector.dir\Debug\TimestampCorrector_manifest.rc 
+       Link:
+         f:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\bin\Debug\TimestampCorrector.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"TimestampCorrector.dir\Debug\TimestampCorrector.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\bin\Debug\TimestampCorrector.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/build/lib/Debug/TimestampCorrector.lib" /MACHINE:X86 TimestampCorrector.dir\Debug\TimestampCorrector.exe.embed.manifest.res
+         TimestampCorrector.dir\Debug\TimestampCorrector.obj  /machine:X86 /debug 
+       Manifest:
+         F:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"TimestampCorrector.dir\Debug\TimestampCorrector.exe.embed.manifest" /manifest TimestampCorrector.dir\Debug\TimestampCorrector.exe.intermediate.manifest
+         F:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"TimestampCorrector.dir\Debug\TimestampCorrector.exe.embed.manifest.res" TimestampCorrector.dir\Debug\TimestampCorrector_manifest.rc 
+       LinkEmbedManifest:
+         f:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\bin\Debug\TimestampCorrector.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"TimestampCorrector.dir\Debug\TimestampCorrector.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\bin\Debug\TimestampCorrector.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/build/lib/Debug/TimestampCorrector.lib" /MACHINE:X86 TimestampCorrector.dir\Debug\TimestampCorrector.exe.embed.manifest.res
+         TimestampCorrector.dir\Debug\TimestampCorrector.obj  /machine:X86 /debug 
+         TimestampCorrector.vcxproj -> E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\bin\Debug\TimestampCorrector.exe
+       FinalizeBuildStatus:
+         正在删除文件“TimestampCorrector.dir\Debug\TimestampCorrector.unsuccessfulbuild”。
+         正在对“TimestampCorrector.dir\Debug\TimestampCorrector.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\Core\samples\TimestampCorrector\TimestampCorrector.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.35

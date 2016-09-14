@@ -1,0 +1,3 @@
+[submodule "scripts"]
+	path = scripts
+	url = login2:/data/avl11/gitroot/users/arh/project_scripts.git

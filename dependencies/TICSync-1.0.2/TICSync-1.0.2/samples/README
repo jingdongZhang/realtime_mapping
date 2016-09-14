@@ -1,0 +1,1 @@
+These are 'global samples', making use of all of the TICSync libraries (and probably external dependencies on Poco and ZMQ).  Library specific samples will be found in the 'samples' subdirectories of each of the libraries.

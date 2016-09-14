@@ -1,0 +1,23 @@
+﻿生成启动时间为 2014/12/8 11:28:00。
+     1>项目“E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\ZERO_CHECK.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Win32\Release\ZERO_CHECK\ZERO_CHECK.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Win32\Release\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/build/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/build/thirdparty/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/build/thirdparty/getpot-c++/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/build/Core/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/build/Core/testing/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/build/Core/samples/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/build/Core/samples/TimestampCorrector/CMakeFiles/generate.stamp is up-to-date.
+       FinalizeBuildStatus:
+         正在删除文件“Win32\Release\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild”。
+         正在对“Win32\Release\ZERO_CHECK\ZERO_CHECK.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\ZERO_CHECK.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.06

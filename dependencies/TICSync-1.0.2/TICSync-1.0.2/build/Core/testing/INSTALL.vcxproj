@@ -1,0 +1,178 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{757F4629-6186-40B6-BE88-B723331DEF00}</ProjectGUID>
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>INSTALL</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType></ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType></ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType></ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType></ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/Core/include;E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/build/Core/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>"F:\Program Files\CMake 2.8\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+if errorlevel 1 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/Core/include;E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/build/Core/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>"F:\Program Files\CMake 2.8\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+if errorlevel 1 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/Core/include;E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/build/Core/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>"F:\Program Files\CMake 2.8\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+if errorlevel 1 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/Core/include;E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/build/Core/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>"F:\Program Files\CMake 2.8\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+if errorlevel 1 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\INSTALL_force.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cd .
+if errorlevel 1 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/build/Core/testing/CMakeFiles/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\Core\testing\CMakeFiles\INSTALL_force;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">cd .
+if errorlevel 1 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/build/Core/testing/CMakeFiles/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\Core\testing\CMakeFiles\INSTALL_force;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"> </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">cd .
+if errorlevel 1 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/build/Core/testing/CMakeFiles/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\Core\testing\CMakeFiles\INSTALL_force;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"> </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">cd .
+if errorlevel 1 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/build/Core/testing/CMakeFiles/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\Core\testing\CMakeFiles\INSTALL_force;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\Core\testing\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/Core/testing/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"F:\Program Files\CMake 2.8\bin\cmake.exe" -HE:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2 -BE:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/build --check-stamp-file E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\Core\testing\CMakeFiles\generate.stamp
+if errorlevel 1 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/Core/testing/CMakeLists.txt;E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\Core\testing\CMakeLists.txt;E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\Core\testing\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\Core\testing\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/Core/testing/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"F:\Program Files\CMake 2.8\bin\cmake.exe" -HE:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2 -BE:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/build --check-stamp-file E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\Core\testing\CMakeFiles\generate.stamp
+if errorlevel 1 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/Core/testing/CMakeLists.txt;E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\Core\testing\CMakeLists.txt;E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\Core\testing\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\Core\testing\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/Core/testing/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">"F:\Program Files\CMake 2.8\bin\cmake.exe" -HE:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2 -BE:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/build --check-stamp-file E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\Core\testing\CMakeFiles\generate.stamp
+if errorlevel 1 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/Core/testing/CMakeLists.txt;E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\Core\testing\CMakeLists.txt;E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\Core\testing\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\Core\testing\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/Core/testing/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">"F:\Program Files\CMake 2.8\bin\cmake.exe" -HE:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2 -BE:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/build --check-stamp-file E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\Core\testing\CMakeFiles\generate.stamp
+if errorlevel 1 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/Core/testing/CMakeLists.txt;E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\Core\testing\CMakeLists.txt;E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\Core\testing\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\Core\testing\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/build/ALL_BUILD.vcxproj">
+      <Project>432217AD-CAAA-496F-8D05-26E08ADE4EB6</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,56 @@
+﻿生成启动时间为 2014/11/11 1:02:23。
+     1>项目“E:\Q.S.LEE\C++_Workspace\BSpline\BSpline\BSpline.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“E:\Q.S.LEE\C++_Workspace\BSpline\Debug\”。
+       InitializeBuildStatus:
+         正在创建“Debug\BSpline.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         f:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\spline.cpp ..\src\spline_prb.cpp
+         spline_prb.cpp
+     1>e:\q.s.lee\c++_workspace\bspline\src\spline_prb.cpp(506): warning C4101: “i”: 未引用的局部变量
+     1>e:\q.s.lee\c++_workspace\bspline\src\spline_prb.cpp(721): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>e:\q.s.lee\c++_workspace\bspline\src\spline_prb.cpp(827): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>e:\q.s.lee\c++_workspace\bspline\src\spline_prb.cpp(887): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>e:\q.s.lee\c++_workspace\bspline\src\spline_prb.cpp(948): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>e:\q.s.lee\c++_workspace\bspline\src\spline_prb.cpp(1063): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>e:\q.s.lee\c++_workspace\bspline\src\spline_prb.cpp(1193): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>e:\q.s.lee\c++_workspace\bspline\src\spline_prb.cpp(1270): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>e:\q.s.lee\c++_workspace\bspline\src\spline_prb.cpp(1347): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>e:\q.s.lee\c++_workspace\bspline\src\spline_prb.cpp(1466): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>e:\q.s.lee\c++_workspace\bspline\src\spline_prb.cpp(1585): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>e:\q.s.lee\c++_workspace\bspline\src\spline_prb.cpp(1708): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>e:\q.s.lee\c++_workspace\bspline\src\spline_prb.cpp(1851): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>e:\q.s.lee\c++_workspace\bspline\src\spline_prb.cpp(1936): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>e:\q.s.lee\c++_workspace\bspline\src\spline_prb.cpp(2021): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>e:\q.s.lee\c++_workspace\bspline\src\spline_prb.cpp(2164): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>e:\q.s.lee\c++_workspace\bspline\src\spline_prb.cpp(2254): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>e:\q.s.lee\c++_workspace\bspline\src\spline_prb.cpp(4867): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>e:\q.s.lee\c++_workspace\bspline\src\spline_prb.cpp(4992): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>e:\q.s.lee\c++_workspace\bspline\src\spline_prb.cpp(5132): warning C4101: “fd”: 未引用的局部变量
+         spline.cpp
+     1>e:\q.s.lee\c++_workspace\bspline\src\spline.cpp(952): warning C4101: “temp”: 未引用的局部变量
+     1>e:\q.s.lee\c++_workspace\bspline\src\spline.cpp(6536): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files\microsoft visual studio 10.0\vc\include\time.inl(112) : 参见“localtime”的声明
+         正在生成代码...
+       ManifestResourceCompile:
+         F:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\BSpline.exe.embed.manifest.res" Debug\BSpline_manifest.rc 
+       Link:
+         f:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Q.S.LEE\C++_Workspace\BSpline\Debug\BSpline.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\BSpline.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Q.S.LEE\C++_Workspace\BSpline\Debug\BSpline.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Q.S.LEE\C++_Workspace\BSpline\Debug\BSpline.lib" /MACHINE:X86 Debug\BSpline.exe.embed.manifest.res
+         Debug\spline.obj
+         Debug\spline_prb.obj
+       Manifest:
+         F:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\BSpline.exe.embed.manifest" /manifest Debug\BSpline.exe.intermediate.manifest
+         F:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\BSpline.exe.embed.manifest.res" Debug\BSpline_manifest.rc 
+       LinkEmbedManifest:
+         f:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Q.S.LEE\C++_Workspace\BSpline\Debug\BSpline.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\BSpline.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Q.S.LEE\C++_Workspace\BSpline\Debug\BSpline.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Q.S.LEE\C++_Workspace\BSpline\Debug\BSpline.lib" /MACHINE:X86 Debug\BSpline.exe.embed.manifest.res
+         Debug\spline.obj
+         Debug\spline_prb.obj
+         BSpline.vcxproj -> E:\Q.S.LEE\C++_Workspace\BSpline\Debug\BSpline.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\BSpline.unsuccessfulbuild”。
+         正在对“Debug\BSpline.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Q.S.LEE\C++_Workspace\BSpline\BSpline\BSpline.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.79

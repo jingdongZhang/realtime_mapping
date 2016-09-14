@@ -1,0 +1,52 @@
+﻿生成启动时间为 2014/12/8 11:26:43。
+     1>项目“E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\Core\testing\LinearTwoWayClockSyncTest.vcxproj”在节点 7 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“LinearTwoWayClockSyncTest.dir\Debug\LinearTwoWayClockSyncTest.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Building Custom Rule E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/Core/testing/CMakeLists.txt
+         CMake does not need to re-run because E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\Core\testing\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         f:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/Core/include" /I"E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/build/Core/include" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"LinearTwoWayClockSyncTest.dir\Debug\\" /Fd"E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/build/bin/Debug/LinearTwoWayClockSyncTest.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\Core\testing\LinearTwoWayClockSyncTest.cpp  /Zm1000 
+         LinearTwoWayClockSyncTest.cpp
+     1>..\..\..\Core\testing\LinearTwoWayClockSyncTest.cpp(33): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\Core\include\TICSync/TimingEnvelope.h(72): warning C4101: “e”: 未引用的局部变量
+                 E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\Core\include\TICSync/TimingEnvelope.h(66): 编译类 模板 成员函数“void TICSync::TimingEnvelope<T>::addPoint(const T &,const T &)”时
+                 with
+                 [
+                     T=double
+                 ]
+                 E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\Core\include\TICSync/MaxSepFilter.h(430): 参见对正在编译的类 模板 实例化“TICSync::TimingEnvelope<T>”的引用
+                 with
+                 [
+                     T=double
+                 ]
+                 E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\Core\include\TICSync/LinearTwoWayClockSync.h(203): 参见对正在编译的类 模板 实例化“TICSync::MaxSepFilter<T>”的引用
+                 with
+                 [
+                     T=double
+                 ]
+                 ..\..\..\Core\testing\LinearTwoWayClockSyncTest.cpp(46): 参见对正在编译的类 模板 实例化“TICSync::LinearTwoWayClockSync<T>”的引用
+                 with
+                 [
+                     T=double
+                 ]
+       ManifestResourceCompile:
+         F:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"LinearTwoWayClockSyncTest.dir\Debug\LinearTwoWayClockSyncTest.exe.embed.manifest.res" LinearTwoWayClockSyncTest.dir\Debug\LinearTwoWayClockSyncTest_manifest.rc 
+       Link:
+         f:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\bin\Debug\LinearTwoWayClockSyncTest.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"LinearTwoWayClockSyncTest.dir\Debug\LinearTwoWayClockSyncTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\bin\Debug\LinearTwoWayClockSyncTest.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/build/lib/Debug/LinearTwoWayClockSyncTest.lib" /MACHINE:X86 LinearTwoWayClockSyncTest.dir\Debug\LinearTwoWayClockSyncTest.exe.embed.manifest.res
+         LinearTwoWayClockSyncTest.dir\Debug\LinearTwoWayClockSyncTest.obj  /machine:X86 /debug 
+       Manifest:
+         F:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"LinearTwoWayClockSyncTest.dir\Debug\LinearTwoWayClockSyncTest.exe.embed.manifest" /manifest LinearTwoWayClockSyncTest.dir\Debug\LinearTwoWayClockSyncTest.exe.intermediate.manifest
+         F:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"LinearTwoWayClockSyncTest.dir\Debug\LinearTwoWayClockSyncTest.exe.embed.manifest.res" LinearTwoWayClockSyncTest.dir\Debug\LinearTwoWayClockSyncTest_manifest.rc 
+       LinkEmbedManifest:
+         f:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\bin\Debug\LinearTwoWayClockSyncTest.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"LinearTwoWayClockSyncTest.dir\Debug\LinearTwoWayClockSyncTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\bin\Debug\LinearTwoWayClockSyncTest.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Q.S.LEE/C++_Workspace/TICSync-1.0.2/TICSync-1.0.2/build/lib/Debug/LinearTwoWayClockSyncTest.lib" /MACHINE:X86 LinearTwoWayClockSyncTest.dir\Debug\LinearTwoWayClockSyncTest.exe.embed.manifest.res
+         LinearTwoWayClockSyncTest.dir\Debug\LinearTwoWayClockSyncTest.obj  /machine:X86 /debug 
+         LinearTwoWayClockSyncTest.vcxproj -> E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\bin\Debug\LinearTwoWayClockSyncTest.exe
+       FinalizeBuildStatus:
+         正在删除文件“LinearTwoWayClockSyncTest.dir\Debug\LinearTwoWayClockSyncTest.unsuccessfulbuild”。
+         正在对“LinearTwoWayClockSyncTest.dir\Debug\LinearTwoWayClockSyncTest.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Q.S.LEE\C++_Workspace\TICSync-1.0.2\TICSync-1.0.2\build\Core\testing\LinearTwoWayClockSyncTest.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.63
